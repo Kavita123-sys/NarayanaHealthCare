@@ -16,7 +16,7 @@ namespace NarayanaHealthHospital
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "GetData", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "GetData", action = "LL", id = UrlParameter.Optional }
             );
         }
     }

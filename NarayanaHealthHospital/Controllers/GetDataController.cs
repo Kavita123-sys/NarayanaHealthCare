@@ -17,6 +17,10 @@ namespace NarayanaHealthHospital.Controllers
         {
             return View();
         }
+        public ActionResult InternationPatient()
+        {
+            return View();
+        }
         public ActionResult FeedbackForm()
         {
             return View();
